@@ -1,0 +1,14 @@
+server:
+  port :80
+  error:
+    include-message: always
+  spring :
+    datasource:
+      url:jdbc:postgresql://lacalhost:5432/gm_app
+    username:javaDbUser
+    password:root
+driver-class-name:org.postgresql.Driver
+jpa:
+  hibernate :
+    ddl-autd:update
+  shoe-sql:true
